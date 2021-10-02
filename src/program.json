@@ -1,0 +1,4 @@
+{
+    "Count up and Down":"LD  A   0 \nLD  B   1/ \nADD X \nJP  C   07\nADD A\nOUT A\nJP  02\nSUB X\nJP  C   0A\nJP  02\nSUB A\nOUT A\nJP  07",
+    "Doubling": "LD A 1\nLD B 0\nOUT A\nADD A\nLD B 0\nADD B\nJP C 8\nJP 2\nOUT A\nJP 0"
+}
